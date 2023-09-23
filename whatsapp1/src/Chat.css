@@ -1,0 +1,79 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+.chatheader{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.chatheader_info{
+    flex:1;
+    padding-left: 20px;
+}
+.chatheader_info > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chatheader_info > p{
+    color: gray;
+}
+.chatbody{
+    flex:1;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsAQgMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAAAQIDB//EACsQAAICAQMDAwQBBQAAAAAAAAECABEhAxIxIkFRE2FxYoGhsTJSU5HR8P/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDrveHfmEJk0Scmjg/uMKaodoyPMMjMBc2DfzECVHUfv5lVWe5iK38whjMDZHgyb20sWoSB0jMKrq+mEix/d/EJUW20gg571DSo2FAFS1Qb2NdhKYDTG4UAMkVzIEQc4lbemmi0dT1BdV5kPqh+kAjOD4gW4xdZHtJAPPA8zS6S9ShjMlgNXTIFgHixAzUqxYoNx75kU41DfE0VNjl2bcarAl1uXjmBEJPpOOHFfEJRurArfaAUBaMTKNpoc5xFp334kDRlulVgD7UJPoLuuzV3Up2IqhzBGJJuAyUDWavzUHfaFIG6zWJmxyd2Mx6S2obsW3V7Qq2SzDaQALyItQm6BqJDdqcnzAuEja0IQ1Qpu2td5APAjUsbDLt8Zu4BgTzIfLG/3AsqTgnjv5hWwE0T7CTo8MLxeImO4/EKtSzfzUAfMQ1AWCqRd5EaMTYqqkLoqr715MI0bT3EEcx7NnbmUGFSHeoD/wC5hM97fTCFJBuYcisxLqJqalEEHtfeahrYrXHeZoiabYu/c8QjVVCigJGNQHHBqAXaxcEsG5H+pSrW4+TcDJ9UoxTTUHaLNmNNRn0g23J8RtpLqAFx1Vk8GPZtbTCWFF4gLTJvg5j1M4HIzM9XXKuwXb0gc95agkrqGv45gVs+r8Qh6if1CEBKQd9GzefaSQRirMoAbt3BP5jBu67GAClAENQ9ODX3k6lmscRqtqQ0CVYggXdnuYq1PV71f2qabFBB/ZiLbnKLYrkwDU24DIG+RA1qKUGMQcEkVxEoIOYVn6Lf1L/iE2uEIw1NxWlNGA3+lts7hzEL5YgDwJdmvEBoxVeu7PAlq5P8phZPItl/IlAkkHgQoDudUKVBTkHM1diOJG6xkcxB9wxCKU0DJdiaANZgZINnqFeIFbjCKEoSGxZjJ5uqjqJwNpiBNe0Ue4jj2jAqBEQB4krQuvMqgAamaDqHwYFk8yGagRtJrkzWpnqouDXPOYgoEEDmKWAKEJYP/9k=);
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+.chat_msg{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.chat_rcv{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chat_time{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chat_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+.chatfoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chatfoot > form{
+    flex: 1;
+    display: flex;
+}
+.chatfoot > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+.chatfoot >form > button{
+    /* display: none; */
+}
+.chatfoot > .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}
+
+
